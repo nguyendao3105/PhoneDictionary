@@ -1,0 +1,10 @@
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\bin\Debug\SPhoneDic.exe.config
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\bin\Debug\SPhoneDic.exe
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\bin\Debug\SPhoneDic.pdb
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.Properties.Resources.resources
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.exe
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.pdb
+C:\Users\DELL\Desktop\TT_203\SPhoneDic\SPhoneDic\obj\Debug\SPhoneDic.PhoneBook.resources
