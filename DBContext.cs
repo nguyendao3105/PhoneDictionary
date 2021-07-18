@@ -199,5 +199,25 @@ namespace SPhoneDic
             return ds;
         }
 
+        public int UpdateCustomer(string id, string name, string email, string phone, string address)
+        {
+            string sql = "UPDATE Customer SET Name = @name, Address = @address, Email = @email, PhoneNumber = @phone WHERE Id = @id";
+
+            using (cnn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, cnn))
+                {
+                    cnn.Open();
+                    cmd.Parameters.Add("@id", SqlDbType.NVarChar).Value = id;
+                    cmd.Parameters.Add("@name", SqlDbType.NVarChar).Value = name;
+                    cmd.Parameters.Add("@email", SqlDbType.NVarChar).Value = email;
+                    cmd.Parameters.Add("@address", SqlDbType.NVarChar).Value = address;
+                    cmd.Parameters.Add("@phone", SqlDbType.NVarChar).Value = phone;
+                    var nrow = cmd.ExecuteNonQuery();
+                    cnn.Close();
+                    return nrow;
+                }
+            }
+        }
     }
 }

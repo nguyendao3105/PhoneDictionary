@@ -204,5 +204,27 @@ namespace SPhoneDic
                 }
             }
         }
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+            string id = this.idText.Text;
+            string name = this.nameText.Text;
+            string phone = this.phoneText.Text;
+            string address = this.addressText.Text;
+            string mail = this.mailText.Text;
+            try
+            {
+                var result = db.UpdateCustomer(id, name, mail, phone, address);
+                if(result > 0)
+                {
+                    MessageBox.Show("Update Complete");
+                    LoadData();
+                }
+            }
+            catch(Exception excep)
+            {
+                MessageBox.Show(excep.Message);
+            }
+        }
     }
 }

@@ -196,7 +196,6 @@ namespace SPhoneDic
             this.label5.Size = new System.Drawing.Size(264, 17);
             this.label5.TabIndex = 14;
             this.label5.Text = "Enter Name or Phone number  to search";
-
             // 
             // editButton
             // 
@@ -207,6 +206,7 @@ namespace SPhoneDic
             this.editButton.Text = "Update";
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Visible = false;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
             // clearButton
             // 
